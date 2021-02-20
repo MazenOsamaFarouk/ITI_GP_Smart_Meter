@@ -11,20 +11,26 @@ import ST7735 as TFT
 import Adafruit_GPIO as GPIO
 import Adafruit_GPIO.SPI as SPI
 
+WIDTH = 128
+HEIGHT = 160
+SPEED_HZ = 4000000
 
+# Raspberry Pi configuration.
+DC = 24
+RST = 25
+SPI_PORT = 0
+SPI_DEVICE = 0
 
 
 def DisplayInit():
+    global font
+    global disp
+    global WIDTH
+    global HEIGHT
 
-    WIDTH = 128
-    HEIGHT = 160
-    SPEED_HZ = 4000000
+    font = ImageFont.load_default()
 
-    # Raspberry Pi configuration.
-    DC = 24
-    RST = 25
-    SPI_PORT = 0
-    SPI_DEVICE = 0
+    
 
     # Create TFT LCD display class.
     disp = TFT.ST7735(
@@ -41,17 +47,26 @@ def DisplayInit():
     disp.begin()
     # Get a PIL Draw object to start drawing on the display buffer.
     draw = disp.draw()
-    disp.clear()
-    font = ImageFont.load_default()
+    disp.clear((0,0,0))
 
 
+def DisplayClear():
+    global disp
+    disp.clear((0,0,0))
 
-
+def DisplayShow():
+    global disp
+    disp.display()
 # Define a function to create rotated text.  Unfortunately PIL doesn't have good
 # native support for rotated fonts, but this function can be used to make a
 # text image and rotate it so it's easy to paste in the buffer.
-def DisplayRotatedText(image, text, position, angle, fill=(255,255,255)):
+def DisplayRotatedText( text, position, angle, fill=(255,255,255)):
     global font
+    global disp
+    global WIDTH
+    global HEIGHT
+
+    image = disp.buffer
     # Get rendered font width and height.
     draw = ImageDraw.Draw(image)
     width, height = draw.textsize(text, font=font)
