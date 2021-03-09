@@ -1,12 +1,12 @@
 import GoogleSheetsPyAPI as gsp
 import my_text_module   as txt
 from datetime import datetime
-from threading import Timer
+from threading import Timer, Thread
 
 SheetID = '1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4'
 KeyFile = 'My Project-a7f7a4e8569b.json'
 
-UpdatePeriod = 2
+UpdatePeriod = 2        # in seconds 
 Power = 1
 Energy = 1
 pf = 1
@@ -46,12 +46,6 @@ def UpdateSheet():
 
 
 gsp.ClearRange("PerDay!A2:D")
-
-
-
-
-##draw_rotated_text(disp.buffer, 'Hello World!', (15, 20), 90, font, fill=(255,255,255))
-##draw_rotated_text(disp.buffer, 'This is a line of text.', (30, 20), 90, font, fill=(255,255,255))
 
 Timer_PerDay=Timer(UpdatePeriod,UpdateSheet)
 Timer_PerDay.start()
