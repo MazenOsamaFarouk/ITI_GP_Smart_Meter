@@ -43,6 +43,26 @@
  */
 #define _V   0
 #define _I   1
+
+/**
+ * Sensor Parameters
+ * ------------------------------------
+ * Sensitivity-[ S ] : in mV/A or mV/V
+ * Amplifier Gain-[ G ]: calculated from max rating and sensitivity
+ * Max rating-[ Imax or Vmax ]
+ * signal bias voltage [ B ]: in Volts
+ */
+
+#define I_MAX   10U  	// in Amperes: should be an integer value
+#define S_I		2		// Sensitivity of current sensor in mV/A, can be a floating point value
+#define G_I		82.5f	// current sensor amp. gain
+#define B_I		1.65f	// current signal bias voltage for ADC value range adjustment
+
+#define V_MAX	220U	// in Volts : should be an integer value
+#define S_V		1       // Sensitivity of voltage sensor in mV/A, can be a floating point value
+#define G_V		7.5f    // voltage sensor amp. gain
+#define B_V		1.65f	// voltage signal bias voltage for ADC value range adjustment
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -165,6 +185,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 //	uint16_t adc_reading = {0};
 //  HAL_ADC_Start_IT(&hadc1);
+
   if( HAL_OK != HAL_ADC_Start_DMA(&hadc1, adc_buf, 2) )
   {
 	  Error_Handler();
@@ -211,9 +232,10 @@ int main(void)
 			else
 			{
 				Vrms_index++ ;
-				Vrms_index++ ;
+				Irms_index++ ;
 			}
-			sprintf(output_str,"%.3f V, %.3f A\r\n", rms_total[_V], rms_total[_I]);
+			sprintf(output_str,"%.3f,%.3f,%.3f\r\n", rms_total[_V], rms_total[_I], P_real[P_real_index]);
+			P_real_index = (P_real_index + 1) % RMS_BUFFER_SIZE;
 			HAL_UART_Transmit(&huart1, (uint8_t*)output_str, strlen(output_str), HAL_MAX_DELAY);
 		}
 	}
@@ -287,20 +309,15 @@ static void MX_ADC1_Init(void)
   hadc1.Instance = ADC1;
   hadc1.Init.ScanConvMode = ADC_SCAN_ENABLE;
   hadc1.Init.ContinuousConvMode = DISABLE;
-  hadc1.Init.DiscontinuousConvMode = DISABLE;
+  hadc1.Init.DiscontinuousConvMode = ENABLE;
+  hadc1.Init.NbrOfDiscConversion = 1;
   hadc1.Init.ExternalTrigConv = ADC_EXTERNALTRIGCONV_T3_TRGO;
   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
   hadc1.Init.NbrOfConversion = 2;
-  hadc1.DMA_Handle = &hdma_adc1 ;
-  hdma_adc1.Parent = &hadc1;
-
   if (HAL_ADC_Init(&hadc1) != HAL_OK)
   {
     Error_Handler();
   }
-//  __HAL_LINKDMA(hadc1,DMA_Handle,hdma_adc1);
-
-
   /** Configure Regular Channel
   */
   sConfig.Channel = ADC_CHANNEL_0;
@@ -442,18 +459,26 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
 {
 //	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_2);
 	static uint8_t index = 0;  // index increments from 0->255 and loops back
-
+	static float I_inst = 0;
+	static float V_inst = 0;
 //	adc_buf = HAL_ADC_GetValue(&hadc1);
 
 	/* convert adc value to volts */
 	/* input_volt = ( (3300mV/(2^12))*ADC_Value  )/1000 [in Volts]  */
 	adc_volt[_V] = ((3300UL*adc_buf[_V])>>12)/1000 ;
-	adc_sum[_V] = adc_sum[_V] + (adc_volt[_V]*adc_volt[_V]);
+	V_inst = ((adc_volt[_V] - B_V)*1414) / (G_V * S_V) ;
+//	adc_sum[_V] = adc_sum[_V] + (adc_volt[_V]*adc_volt[_V]);
+	adc_sum[_V] = adc_sum[_V] + (V_inst*V_inst);
 
 	adc_volt[_I] = ((3300UL*adc_buf[_I])>>12)/1000 ;
-	adc_sum[_I] = adc_sum[_I] + (adc_volt[_I]*adc_volt[_I]);
+	I_inst = ((adc_volt[_I] - B_I)*1000) / (G_I * S_I) ;
+//	adc_sum[_I] = adc_sum[_I] + (adc_volt[_I]*adc_volt[_I]);
+	adc_sum[_I] = adc_sum[_I] + (I_inst*I_inst);
 
-	if(index==ADC_BUFFER_SIZE-1)
+
+	P_real[P_real_index] = V_inst * I_inst ;
+
+	if(index==ADC_BUFFER_SIZE - 1)
 	{
 		bCalculateRMS = 1;
 		adc_mean[_V] = adc_sum[_V]/ADC_BUFFER_SIZE;

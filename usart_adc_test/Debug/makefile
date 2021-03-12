@@ -54,8 +54,8 @@ all: main-build
 main-build: usart_adc_test.elf secondary-outputs
 
 # Tool invocations
-usart_adc_test.elf: $(OBJS) $(USER_OBJS) D:\ITI-3\ mon-Minia\ST_CUBE_workspace\usart_adc_test\STM32F103C8TX_FLASH.ld
-	arm-none-eabi-gcc -o "usart_adc_test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\ITI-3 mon-Minia\ST_CUBE_workspace\usart_adc_test\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usart_adc_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+usart_adc_test.elf: $(OBJS) $(USER_OBJS) D:\ITI-3\ mon-Minia\ITIGP_IOT_EnergyMeter\ITI_GP_Smart_Meter\usart_adc_test\STM32F103C8TX_FLASH.ld
+	arm-none-eabi-gcc -o "usart_adc_test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\ITI-3 mon-Minia\ITIGP_IOT_EnergyMeter\ITI_GP_Smart_Meter\usart_adc_test\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usart_adc_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
