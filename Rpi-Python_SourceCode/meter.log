@@ -1,0 +1,1002 @@
+2021-03-10 14:15:25,808:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 14:15:25,813:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 14:15:29,143:10:STREAM b'IHDR' 16 13
+2021-03-10 14:15:30,038:10:STREAM b'IDAT' 41 1216
+2021-03-10 14:15:32,524:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 14:15:32,560:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 14:16:19,366:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 14:16:19,368:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 14:16:22,390:10:STREAM b'IHDR' 16 13
+2021-03-10 14:16:22,391:10:STREAM b'IDAT' 41 1216
+2021-03-10 14:16:24,849:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 14:16:24,914:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 14:18:32,166:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 14:18:32,170:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 14:18:35,230:10:STREAM b'IHDR' 16 13
+2021-03-10 14:18:35,249:10:STREAM b'IDAT' 41 1216
+2021-03-10 14:18:37,699:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 14:18:37,750:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 14:18:41,157:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&alt=json&insertDataOption=INSERT_ROWS
+2021-03-10 14:33:22,620:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 14:33:22,624:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 14:33:26,361:10:STREAM b'IHDR' 16 13
+2021-03-10 14:33:26,362:10:STREAM b'IDAT' 41 1216
+2021-03-10 14:33:28,818:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 14:33:31,471:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 14:33:35,167:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-10 14:36:42,948:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 14:36:42,951:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 14:36:46,443:10:STREAM b'IHDR' 16 13
+2021-03-10 14:36:46,445:10:STREAM b'IDAT' 41 1216
+2021-03-10 14:36:48,860:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 14:36:48,896:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 14:36:52,206:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:36:54,821:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:36:58,432:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:37:00,996:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:37:03,714:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:37:06,392:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:37:08,962:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:37:11,550:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:37:14,148:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:37:16,773:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:37:19,373:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:38:16,994:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 14:38:16,999:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 14:38:20,782:10:STREAM b'IHDR' 16 13
+2021-03-10 14:38:20,788:10:STREAM b'IDAT' 41 1216
+2021-03-10 14:38:23,246:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 14:38:23,298:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 14:38:26,892:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:29,623:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:33,831:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:36,558:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:39,235:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:41,918:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:44,620:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:47,332:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:49,905:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:52,485:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:55,073:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:38:57,691:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:39:00,265:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:39:02,855:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:39:05,459:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:39:08,161:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:41:17,158:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 14:41:17,163:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 14:41:20,022:10:STREAM b'IHDR' 16 13
+2021-03-10 14:41:20,023:10:STREAM b'IDAT' 41 1216
+2021-03-10 14:41:22,471:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 14:41:22,520:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 14:41:32,377:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:41:34,966:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:41:37,607:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:41:40,344:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:41:44,196:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:41:46,972:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:41:49,825:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:41:52,472:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:41:55,018:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:41:57,656:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:00,261:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:02,822:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:05,399:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:07,949:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:10,558:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:13,176:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:15,894:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:18,585:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:21,109:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:23,662:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:26,333:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:42:28,905:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:46:46,993:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 14:46:46,998:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 14:46:50,383:10:STREAM b'IHDR' 16 13
+2021-03-10 14:46:50,384:10:STREAM b'IDAT' 41 1216
+2021-03-10 14:46:52,841:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 14:46:52,920:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 14:46:56,440:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:46:59,075:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:47:01,985:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:47:04,535:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:47:08,344:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:47:10,899:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:47:13,514:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:47:16,087:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 14:48:41,148:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 14:48:41,154:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 14:48:44,603:10:STREAM b'IHDR' 16 13
+2021-03-10 14:48:44,604:10:STREAM b'IDAT' 41 1216
+2021-03-10 14:48:47,063:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 14:48:47,116:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 14:48:50,405:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:48:53,091:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 14:48:55,757:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED
+2021-03-10 21:28:10,594:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 21:28:10,602:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 21:28:13,453:10:STREAM b'IHDR' 16 13
+2021-03-10 21:28:13,454:10:STREAM b'IDAT' 41 1216
+2021-03-10 21:28:15,927:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 21:28:16,003:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 21:30:45,782:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 21:30:45,784:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 21:30:49,231:10:STREAM b'IHDR' 16 13
+2021-03-10 21:30:49,232:10:STREAM b'IDAT' 41 1216
+2021-03-10 21:30:51,682:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 21:30:54,333:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 21:35:55,514:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 21:35:55,517:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 21:35:59,191:10:STREAM b'IHDR' 16 13
+2021-03-10 21:35:59,193:10:STREAM b'IDAT' 41 1216
+2021-03-10 21:36:01,651:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 21:36:01,704:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 21:42:31,017:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 21:42:31,020:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 21:42:34,541:10:STREAM b'IHDR' 16 13
+2021-03-10 21:42:34,542:10:STREAM b'IDAT' 41 1216
+2021-03-10 21:42:36,989:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 21:42:37,903:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 21:42:41,352:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:42:43,806:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:42:46,273:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:42:48,761:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:42:51,292:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:42:53,758:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:42:56,184:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:00,722:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:03,299:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:05,801:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:08,225:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:10,631:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:13,110:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:15,533:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:17,929:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:20,526:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:23,152:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:25,590:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:28,029:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:30,567:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:33,030:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:35,426:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:38,003:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:38,470:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 21:43:40,907:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:43,339:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:45,872:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:48,337:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:50,795:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:53,254:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:55,680:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:43:58,167:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:00,679:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:03,083:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:05,478:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:08,054:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:10,496:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:12,906:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:15,300:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:17,693:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:20,337:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:22,766:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:25,199:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:27,812:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:30,236:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:32,634:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:35,150:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:35,496:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 21:44:37,947:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:40,363:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:42,794:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:45,136:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:47,513:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:50,007:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:53,421:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:55,835:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:44:58,195:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:00,588:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:03,139:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:05,736:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:08,106:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:10,535:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:12,901:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:15,280:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:17,751:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:20,223:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:22,736:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:25,343:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:27,755:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:30,143:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:32,600:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:32,973:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 21:45:35,397:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:37,911:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:41,368:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:43,840:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:46,344:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:48,726:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:51,111:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:53,517:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:56,003:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:45:58,404:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:00,771:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:03,192:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:05,715:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:08,069:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:10,501:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:13,087:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:15,603:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:18,052:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:20,598:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:22,973:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:25,390:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:27,774:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:30,198:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:30,587:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 21:46:32,928:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:35,373:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:37,775:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:40,156:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:42,633:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:45,057:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:47,477:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:50,055:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:52,462:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:54,866:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:57,354:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:46:59,755:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:02,191:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:04,561:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:07,004:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:09,410:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:11,924:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:14,299:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:16,957:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:19,429:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:21,902:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:24,326:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:26,774:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:27,211:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 21:47:30,470:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:33,009:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:35,506:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:37,970:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:40,467:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:42,977:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:45,343:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:51,672:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:54,099:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:47:56,545:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:02,923:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:05,393:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:10,360:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:15,047:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:17,547:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:21,350:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:23,768:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:26,151:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:28,704:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:32,557:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:34,938:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:37,335:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:39,760:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:40,157:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 21:48:42,722:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:45,122:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:47,636:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:50,161:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:52,557:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:55,136:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:48:57,499:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:00,032:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:02,368:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:04,738:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:07,513:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:09,873:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:12,385:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:14,736:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:17,165:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:19,648:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:22,229:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 21:49:24,811:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:00:47,543:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 22:00:47,548:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 22:00:51,244:10:STREAM b'IHDR' 16 13
+2021-03-10 22:00:51,245:10:STREAM b'IDAT' 41 1216
+2021-03-10 22:00:53,706:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 22:00:53,778:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 22:00:55,096:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2%3AD:clear?alt=json
+2021-03-10 22:00:57,471:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&alt=json&insertDataOption=INSERT_ROWS
+2021-03-10 22:00:59,919:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&alt=json&insertDataOption=INSERT_ROWS
+2021-03-10 22:01:02,496:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&alt=json&insertDataOption=INSERT_ROWS
+2021-03-10 22:01:05,032:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&alt=json&insertDataOption=INSERT_ROWS
+2021-03-10 22:01:07,507:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&alt=json&insertDataOption=INSERT_ROWS
+2021-03-10 22:01:09,992:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&alt=json&insertDataOption=INSERT_ROWS
+2021-03-10 22:01:12,530:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&alt=json&insertDataOption=INSERT_ROWS
+2021-03-10 22:01:15,105:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&alt=json&insertDataOption=INSERT_ROWS
+2021-03-10 22:01:17,594:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&alt=json&insertDataOption=INSERT_ROWS
+2021-03-10 22:10:02,049:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 22:10:02,052:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 22:10:05,284:10:STREAM b'IHDR' 16 13
+2021-03-10 22:10:05,286:10:STREAM b'IDAT' 41 1216
+2021-03-10 22:10:07,746:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 22:10:07,796:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 22:10:09,246:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2%3AD:clear?alt=json
+2021-03-10 22:10:11,768:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-10 22:10:14,421:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-10 22:10:17,060:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-10 22:11:09,707:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 22:11:09,712:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 22:11:13,219:10:STREAM b'IHDR' 16 13
+2021-03-10 22:11:13,220:10:STREAM b'IDAT' 41 1216
+2021-03-10 22:11:15,681:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 22:11:15,847:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 22:11:17,044:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2%3AD:clear?alt=json
+2021-03-10 22:11:19,554:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&alt=json&valueInputOption=USER_ENTERED
+2021-03-10 22:11:22,112:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&alt=json&valueInputOption=USER_ENTERED
+2021-03-10 22:11:24,891:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&alt=json&valueInputOption=USER_ENTERED
+2021-03-10 22:11:27,558:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&alt=json&valueInputOption=USER_ENTERED
+2021-03-10 22:11:30,079:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&alt=json&valueInputOption=USER_ENTERED
+2021-03-10 22:11:32,554:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&alt=json&valueInputOption=USER_ENTERED
+2021-03-10 22:11:35,099:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&alt=json&valueInputOption=USER_ENTERED
+2021-03-10 22:11:57,371:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 22:11:57,376:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 22:12:00,486:10:STREAM b'IHDR' 16 13
+2021-03-10 22:12:00,487:10:STREAM b'IDAT' 41 1216
+2021-03-10 22:12:02,940:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 22:12:02,989:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 22:12:04,249:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2%3AD:clear?alt=json
+2021-03-10 22:12:06,801:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:09,400:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:11,980:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:14,626:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:17,230:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:19,780:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:22,442:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:25,041:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:30,543:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:34,903:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:37,427:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:40,067:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:42,766:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:45,321:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:47,886:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:50,455:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:53,021:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:55,683:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:12:58,257:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:00,822:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:03,412:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:06,193:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:08,725:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:09,764:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 22:13:12,290:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:14,811:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:17,234:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:19,743:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:22,346:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:24,999:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:27,668:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:30,318:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:32,885:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:35,583:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:38,227:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:40,959:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:43,494:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:46,100:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:48,771:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:13:51,466:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS&alt=json
+2021-03-10 22:20:36,634:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-10 22:20:36,637:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-10 22:20:40,387:10:STREAM b'IHDR' 16 13
+2021-03-10 22:20:40,388:10:STREAM b'IDAT' 41 1216
+2021-03-10 22:20:42,845:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-10 22:20:42,916:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-10 22:20:44,425:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2%3AD:clear?alt=json
+2021-03-10 22:20:46,974:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-10 22:20:49,581:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-10 22:20:52,159:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 17:39:48,490:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-11 17:39:48,498:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-11 17:39:52,334:10:STREAM b'IHDR' 16 13
+2021-03-11 17:39:52,335:10:STREAM b'IDAT' 41 1216
+2021-03-11 17:39:54,817:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-11 17:39:54,895:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-11 17:39:56,678:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2%3AD:clear?alt=json
+2021-03-11 17:39:59,248:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:01,839:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:04,430:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:07,069:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:09,713:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:12,341:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:14,865:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:17,433:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:22,558:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:25,281:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:27,910:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:30,441:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:33,040:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:35,742:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:38,390:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:40,990:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:43,595:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:46,237:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:48,862:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:51,589:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:54,106:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:56,682:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:40:59,334:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:41:00,133:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-11 17:41:02,672:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:41:05,216:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:41:07,953:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 17:41:10,505:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?alt=json&valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS
+2021-03-11 18:24:21,536:30:file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ImportError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/pi/.local/lib/python3.5/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    "file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth"
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+2021-03-11 18:24:21,540:10:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/sheets/v4/rest
+2021-03-11 18:24:25,153:10:STREAM b'IHDR' 16 13
+2021-03-11 18:24:25,154:10:STREAM b'IDAT' 41 1216
+2021-03-11 18:24:27,610:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-11 18:24:28,501:10:Making request: POST https://oauth2.googleapis.com/token
+2021-03-11 18:24:30,303:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2%3AD:clear?alt=json
+2021-03-11 18:24:32,899:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:24:35,656:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:24:38,190:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:24:41,038:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:24:43,607:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:24:46,198:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:24:48,865:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:24:51,666:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:24:54,289:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:24:56,864:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:00,359:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:02,997:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:11,608:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:14,225:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:16,794:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:19,402:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:22,006:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:24,802:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:27,615:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:30,257:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:33,328:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:35,997:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:38,579:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:39,079:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-11 18:25:41,750:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:44,354:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:46,865:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:49,466:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:52,020:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:54,485:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:57,093:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:25:59,642:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:02,190:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:04,809:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:07,393:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:10,220:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:12,676:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:15,213:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:17,827:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:20,401:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:23,998:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:26,498:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:29,057:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:31,624:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:34,192:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:36,748:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:39,296:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:39,860:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-11 18:26:42,550:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:44,989:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:47,533:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:50,130:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:52,736:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:55,304:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:26:57,740:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:00,309:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:02,977:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:08,739:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:11,385:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:13,977:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:16,631:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:19,213:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:21,673:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:24,184:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:26,740:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:29,263:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:31,887:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:34,452:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:37,027:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:39,567:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:41,958:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:42,544:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-11 18:27:44,956:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:47,625:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:50,140:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:52,742:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:55,434:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:27:57,977:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:00,553:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:03,135:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:05,839:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:08,396:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:11,079:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:13,655:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:16,213:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:18,739:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:21,145:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:23,725:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:26,361:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:31,412:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:33,875:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:36,609:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:39,084:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:41,583:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:44,132:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:44,551:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-11 18:28:47,097:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:49,792:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:52,395:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:54,956:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:28:57,626:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:00,162:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:02,646:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:05,347:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:07,819:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:10,276:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:12,760:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:15,271:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:17,725:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:20,282:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:22,786:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:25,353:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:28,050:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:30,460:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:33,120:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:35,727:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:38,296:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:40,964:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:43,512:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:44,134:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-11 18:29:46,955:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:49,389:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:52,038:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:54,601:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:57,163:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:29:59,820:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:02,572:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:05,022:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:07,574:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:10,264:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:12,778:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:15,225:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:17,728:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:20,450:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:23,072:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:25,659:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:28,139:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:30,837:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:33,360:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:35,839:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:38,271:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:40,742:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:43,237:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerMonth%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:43,707:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2%3AD:clear?alt=json
+2021-03-11 18:30:46,303:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:48,745:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:51,366:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:53,893:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:56,385:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:30:58,891:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:01,546:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:04,170:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:06,593:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:09,285:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:11,921:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:14,338:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:16,933:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:19,361:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:21,850:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:24,602:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json
+2021-03-11 18:31:27,067:10:URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1-A7x_W7RNImgUUj8LIsDAM5GBiopJsOxDZLWydZW3b4/values/PerDay%21A2:append?insertDataOption=INSERT_ROWS&valueInputOption=USER_ENTERED&alt=json

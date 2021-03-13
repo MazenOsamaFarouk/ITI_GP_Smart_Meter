@@ -13,7 +13,7 @@ COM_PORT = "/dev/ttyS0"
 BAUD_RATE = 115200
 MAX_LINE_LEN = 30
 
-def UART_Init():
+def Init():
     global stream
     global stream_status
     try:
@@ -21,7 +21,7 @@ def UART_Init():
     except serial.SerialException as e:
         logging.error("Could not Open Serial Port.Check UART pins Connections")
 
-def UART_Getline():
+def Getline():
     global stream
     global stream_status
 
@@ -48,7 +48,7 @@ def UART_Getline():
     else:
         return output
 
-def UART_SendLine(line):
+def SendLine(line):
     global stream
     global stream_status
     if stream_status == False:
