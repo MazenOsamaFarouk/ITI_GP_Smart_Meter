@@ -466,10 +466,20 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
 	/* convert adc value to volts */
 	/* input_volt = ( (3300mV/(2^12))*ADC_Value  )/1000 [in Volts]  */
 	adc_volt[_V] = ((3300UL*adc_buf[_V])>>12)/1000 ;
-	V_inst = ((adc_volt[_V] - B_V)*1414) / (G_V * S_V) ;
+	
+
+	// multiplication of the 1414 in the numerator is because 
+	// of the units of the sensitivity is in mV 
+	// the 414 part came from multiplying by 1.414 which is the sqrt(2)
+	// that is because the 220 value of AC voltage is the RMS value,
+	// bu the real MAXimum (peak) value of the voltage is 220*sqrt(2) 
+	V_inst = ((adc_volt[_V] - B_V)*1414) / (G_V * S_V) ; 
 //	adc_sum[_V] = adc_sum[_V] + (adc_volt[_V]*adc_volt[_V]);
 	adc_sum[_V] = adc_sum[_V] + (V_inst*V_inst);
+	
 
+	// multiplication of the 1000 in the numerator is because 
+	// of the units of the sensitivity is in mV 
 	adc_volt[_I] = ((3300UL*adc_buf[_I])>>12)/1000 ;
 	I_inst = ((adc_volt[_I] - B_I)*1000) / (G_I * S_I) ;
 //	adc_sum[_I] = adc_sum[_I] + (adc_volt[_I]*adc_volt[_I]);
